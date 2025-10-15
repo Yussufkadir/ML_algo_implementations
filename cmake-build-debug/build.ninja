@@ -41,58 +41,112 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/yusufsurmen/CLionProjects/ML_algo_implementations/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target ML_algo_implementations
+# Object build statements for EXECUTABLE target Linear_Regression
 
 
 #############################################
-# Order-only phony target for ML_algo_implementations
+# Order-only phony target for Linear_Regression
 
-build cmake_object_order_depends_target_ML_algo_implementations: phony || .
+build cmake_object_order_depends_target_Linear_Regression: phony || .
 
-build CMakeFiles/ML_algo_implementations.dir/Linear_Regression.cpp.o: CXX_COMPILER__ML_algo_implementations_unscanned_Debug /Users/yusufsurmen/CLionProjects/ML_algo_implementations/Linear_Regression.cpp || cmake_object_order_depends_target_ML_algo_implementations
+build CMakeFiles/Linear_Regression.dir/Linear_Regression.cpp.o: CXX_COMPILER__Linear_Regression_unscanned_Debug /Users/yusufsurmen/CLionProjects/ML_algo_implementations/Linear_Regression.cpp || cmake_object_order_depends_target_Linear_Regression
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/ML_algo_implementations.dir/Linear_Regression.cpp.o.d
+  DEP_FILE = CMakeFiles/Linear_Regression.dir/Linear_Regression.cpp.o.d
   FLAGS = -g -arch arm64 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/ML_algo_implementations.dir
-  OBJECT_FILE_DIR = CMakeFiles/ML_algo_implementations.dir
-  TARGET_COMPILE_PDB = CMakeFiles/ML_algo_implementations.dir/
-  TARGET_PDB = ML_algo_implementations.pdb
-
-build CMakeFiles/ML_algo_implementations.dir/Logistic_Regression.cpp.o: CXX_COMPILER__ML_algo_implementations_unscanned_Debug /Users/yusufsurmen/CLionProjects/ML_algo_implementations/Logistic_Regression.cpp || cmake_object_order_depends_target_ML_algo_implementations
-  CONFIG = Debug
-  DEP_FILE = CMakeFiles/ML_algo_implementations.dir/Logistic_Regression.cpp.o.d
-  FLAGS = -g -arch arm64 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/ML_algo_implementations.dir
-  OBJECT_FILE_DIR = CMakeFiles/ML_algo_implementations.dir
-  TARGET_COMPILE_PDB = CMakeFiles/ML_algo_implementations.dir/
-  TARGET_PDB = ML_algo_implementations.pdb
-
-build CMakeFiles/ML_algo_implementations.dir/CNN.cpp.o: CXX_COMPILER__ML_algo_implementations_unscanned_Debug /Users/yusufsurmen/CLionProjects/ML_algo_implementations/CNN.cpp || cmake_object_order_depends_target_ML_algo_implementations
-  CONFIG = Debug
-  DEP_FILE = CMakeFiles/ML_algo_implementations.dir/CNN.cpp.o.d
-  FLAGS = -g -arch arm64 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/ML_algo_implementations.dir
-  OBJECT_FILE_DIR = CMakeFiles/ML_algo_implementations.dir
-  TARGET_COMPILE_PDB = CMakeFiles/ML_algo_implementations.dir/
-  TARGET_PDB = ML_algo_implementations.pdb
+  OBJECT_DIR = CMakeFiles/Linear_Regression.dir
+  OBJECT_FILE_DIR = CMakeFiles/Linear_Regression.dir
+  TARGET_COMPILE_PDB = CMakeFiles/Linear_Regression.dir/
+  TARGET_PDB = Linear_Regression.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ML_algo_implementations
+# Link build statements for EXECUTABLE target Linear_Regression
 
 
 #############################################
-# Link the executable ML_algo_implementations
+# Link the executable Linear_Regression
 
-build ML_algo_implementations: CXX_EXECUTABLE_LINKER__ML_algo_implementations_Debug CMakeFiles/ML_algo_implementations.dir/Linear_Regression.cpp.o CMakeFiles/ML_algo_implementations.dir/Logistic_Regression.cpp.o CMakeFiles/ML_algo_implementations.dir/CNN.cpp.o
+build Linear_Regression: CXX_EXECUTABLE_LINKER__Linear_Regression_Debug CMakeFiles/Linear_Regression.dir/Linear_Regression.cpp.o
   CONFIG = Debug
   FLAGS = -g -arch arm64
-  OBJECT_DIR = CMakeFiles/ML_algo_implementations.dir
+  OBJECT_DIR = CMakeFiles/Linear_Regression.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ML_algo_implementations.dir/
-  TARGET_FILE = ML_algo_implementations
-  TARGET_PDB = ML_algo_implementations.pdb
+  TARGET_COMPILE_PDB = CMakeFiles/Linear_Regression.dir/
+  TARGET_FILE = Linear_Regression
+  TARGET_PDB = Linear_Regression.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Logistic_Regression
+
+
+#############################################
+# Order-only phony target for Logistic_Regression
+
+build cmake_object_order_depends_target_Logistic_Regression: phony || .
+
+build CMakeFiles/Logistic_Regression.dir/Logistic_Regression.cpp.o: CXX_COMPILER__Logistic_Regression_unscanned_Debug /Users/yusufsurmen/CLionProjects/ML_algo_implementations/Logistic_Regression.cpp || cmake_object_order_depends_target_Logistic_Regression
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/Logistic_Regression.dir/Logistic_Regression.cpp.o.d
+  FLAGS = -g -arch arm64 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Logistic_Regression.dir
+  OBJECT_FILE_DIR = CMakeFiles/Logistic_Regression.dir
+  TARGET_COMPILE_PDB = CMakeFiles/Logistic_Regression.dir/
+  TARGET_PDB = Logistic_Regression.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Logistic_Regression
+
+
+#############################################
+# Link the executable Logistic_Regression
+
+build Logistic_Regression: CXX_EXECUTABLE_LINKER__Logistic_Regression_Debug CMakeFiles/Logistic_Regression.dir/Logistic_Regression.cpp.o
+  CONFIG = Debug
+  FLAGS = -g -arch arm64
+  OBJECT_DIR = CMakeFiles/Logistic_Regression.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/Logistic_Regression.dir/
+  TARGET_FILE = Logistic_Regression
+  TARGET_PDB = Logistic_Regression.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CNN
+
+
+#############################################
+# Order-only phony target for CNN
+
+build cmake_object_order_depends_target_CNN: phony || .
+
+build CMakeFiles/CNN.dir/CNN.cpp.o: CXX_COMPILER__CNN_unscanned_Debug /Users/yusufsurmen/CLionProjects/ML_algo_implementations/CNN.cpp || cmake_object_order_depends_target_CNN
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/CNN.dir/CNN.cpp.o.d
+  FLAGS = -g -arch arm64 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/CNN.dir
+  OBJECT_FILE_DIR = CMakeFiles/CNN.dir
+  TARGET_COMPILE_PDB = CMakeFiles/CNN.dir/
+  TARGET_PDB = CNN.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CNN
+
+
+#############################################
+# Link the executable CNN
+
+build CNN: CXX_EXECUTABLE_LINKER__CNN_Debug CMakeFiles/CNN.dir/CNN.cpp.o
+  CONFIG = Debug
+  FLAGS = -g -arch arm64
+  OBJECT_DIR = CMakeFiles/CNN.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/CNN.dir/
+  TARGET_FILE = CNN
+  TARGET_PDB = CNN.pdb
 
 
 #############################################
@@ -135,7 +189,7 @@ build codegen: phony
 #############################################
 # Folder: /Users/yusufsurmen/CLionProjects/ML_algo_implementations/cmake-build-debug
 
-build all: phony ML_algo_implementations
+build all: phony Linear_Regression Logistic_Regression CNN
 
 # =============================================================================
 # Built-in targets

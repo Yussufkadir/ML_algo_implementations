@@ -1,3 +1,5 @@
-/Users/yusufsurmen/CLionProjects/ML_algo_implementations/cmake-build-debug/CMakeFiles/ML_algo_implementations.dir
+/Users/yusufsurmen/CLionProjects/ML_algo_implementations/cmake-build-debug/CMakeFiles/Linear_Regression.dir
+/Users/yusufsurmen/CLionProjects/ML_algo_implementations/cmake-build-debug/CMakeFiles/Logistic_Regression.dir
+/Users/yusufsurmen/CLionProjects/ML_algo_implementations/cmake-build-debug/CMakeFiles/CNN.dir
 /Users/yusufsurmen/CLionProjects/ML_algo_implementations/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/yusufsurmen/CLionProjects/ML_algo_implementations/cmake-build-debug/CMakeFiles/rebuild_cache.dir
