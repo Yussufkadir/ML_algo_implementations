@@ -7,7 +7,7 @@ A collection of machine learning and deep learning algorithms implemented from s
 - ✅ Linear Regression
 - ✅ Logistic Regression
 
-## 🔜 On the making 
+## 🔜 In the making 
 - CNN
 
 ## 🚧 Planned Implementations
